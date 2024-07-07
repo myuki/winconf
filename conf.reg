@@ -5,7 +5,7 @@ Windows Registry Editor Version 5.00
 "AllowNewsAndInterests"=dword:00000000
 "AllowWidgets"=dword:00000000
 
-; Support for long paths longer than 260 characters
+; Support the path longer than 260 characters
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem]
 "LongPathsEnabled"=dword:00000001
 
